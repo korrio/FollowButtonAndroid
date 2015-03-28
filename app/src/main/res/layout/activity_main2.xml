@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/longButton"
+            android:background="@drawable/follow_button_selector"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_height="36dp"
+            android:textColor="#2C6497"
+            android:text="LOADING"
+            android:textSize="14dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="15dp"
+        android:text="@string/hello_world"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/shortButton"
+            android:background="@drawable/follow_button_selector"
+            android:textStyle="bold"
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:textColor="#2C6497"
+            android:text="LOADING"
+            android:textSize="10dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+</LinearLayout>
