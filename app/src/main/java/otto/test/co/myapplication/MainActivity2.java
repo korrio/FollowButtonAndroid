@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -48,7 +49,7 @@ public class MainActivity2 extends Activity implements OnClickListener {
 
         isFollowing = !isFollowing;
 
-        mText1.setText("select: " + button.getText());
+        Log.v("You ","select: " + button.getText());
     }
 
     @SuppressWarnings("unchecked")
